@@ -1,0 +1,754 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline" xmlns:Framework="Microsoft.Xna.Framework" xmlns:Processors="Microsoft.Xna.Framework.Content.Pipeline.Processors">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Effects\efx.fx</Source>
+      <Name>Effects\efx</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\x86\Release\Content\Effects\efx.xnb</Output>
+      <Time>2010-11-08T16:10:27.8503187-07:00</Time>
+    </Item>
+    <Item>
+      <Source>EnvMap\SkySphere.fx</Source>
+      <Name>EnvMap\SkySphere</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\x86\Release\Content\EnvMap\SkySphere.xnb</Output>
+      <Time>2010-11-18T21:07:45.824-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Particle\ParticleEffect.fx</Source>
+      <Name>Particle\ParticleEffect</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\x86\Release\Content\Particle\ParticleEffect.xnb</Output>
+      <Time>2010-11-28T19:23:23.88-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Table\RenderStuff_Golden_pedestal_column_ceramic.jpg</Source>
+      <Name>Models\Table\RenderStuff_Golden_pedestal_column_ceramic</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\x86\Release\Content\Models\Table\RenderStuff_Golden_pedestal_column_ceramic.xnb</Output>
+      <Time>2010-11-08T17:40:25.8530668-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Table\RenderStuff_Golden_pedestal_column_reproduction.jpg</Source>
+      <Name>Models\Table\RenderStuff_Golden_pedestal_column_reproduction</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\x86\Release\Content\Models\Table\RenderStuff_Golden_pedestal_column_reproduction.xnb</Output>
+      <Time>2010-11-08T17:40:25.8590671-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Table\RenderStuff_Golden_pedestal_column_scratch.jpg</Source>
+      <Name>Models\Table\RenderStuff_Golden_pedestal_column_scratch</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\x86\Release\Content\Models\Table\RenderStuff_Golden_pedestal_column_scratch.xnb</Output>
+      <Time>2010-11-08T17:40:25.8900689-07:00</Time>
+    </Item>
+    <Item>
+      <Source>EnvMap\rnl_cross.dds</Source>
+      <Name>EnvMap\rnl_cross</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\x86\Release\Content\EnvMap\rnl_cross.xnb</Output>
+      <Time>2010-11-11T23:09:42.8544946-07:00</Time>
+    </Item>
+    <Item>
+      <Source>EnvMap\uffizi_cross.dds</Source>
+      <Name>EnvMap\uffizi_cross</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\x86\Release\Content\EnvMap\uffizi_cross.xnb</Output>
+      <Time>2010-11-11T20:15:52.2255-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Ball\redtexture.png</Source>
+      <Name>Models\Ball\redtexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\x86\Release\Content\Models\Ball\redtexture.xnb</Output>
+      <Time>2010-11-11T20:15:52.2315-07:00</Time>
+    </Item>
+    <Item>
+      <Source>EnvMap\CubeMap.dds</Source>
+      <Name>EnvMap\CubeMap</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\x86\Release\Content\EnvMap\CubeMap.xnb</Output>
+      <Time>2010-11-12T13:48:33.15-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Particle\explosion.png</Source>
+      <Name>Particle\explosion</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\x86\Release\Content\Particle\explosion.xnb</Output>
+      <Time>2010-11-28T19:23:51.342-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Particle\smoke.png</Source>
+      <Name>Particle\smoke</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\x86\Release\Content\Particle\smoke.xnb</Output>
+      <Time>2010-11-28T19:23:51.344-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\background.png</Source>
+      <Name>Menu\background</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\x86\Release\Content\Menu\background.xnb</Output>
+      <Time>2010-11-29T01:19:41.113-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\blank.png</Source>
+      <Name>Menu\blank</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\x86\Release\Content\Menu\blank.xnb</Output>
+      <Time>2010-11-29T01:19:41.115-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\gradient.png</Source>
+      <Name>Menu\gradient</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\x86\Release\Content\Menu\gradient.xnb</Output>
+      <Time>2010-11-29T01:19:41.118-07:00</Time>
+    </Item>
+    <Item>
+      <Source>LensFlare\flare1.png</Source>
+      <Name>LensFlare\flare1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\x86\Release\Content\LensFlare\flare1.xnb</Output>
+      <Time>2010-12-03T21:32:16.546-07:00</Time>
+    </Item>
+    <Item>
+      <Source>LensFlare\flare2.png</Source>
+      <Name>LensFlare\flare2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\x86\Release\Content\LensFlare\flare2.xnb</Output>
+      <Time>2010-12-03T21:32:16.568-07:00</Time>
+    </Item>
+    <Item>
+      <Source>LensFlare\flare3.png</Source>
+      <Name>LensFlare\flare3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\x86\Release\Content\LensFlare\flare3.xnb</Output>
+      <Time>2010-12-03T21:32:16.569-07:00</Time>
+    </Item>
+    <Item>
+      <Source>LensFlare\glow.png</Source>
+      <Name>LensFlare\glow</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\x86\Release\Content\LensFlare\glow.xnb</Output>
+      <Time>2010-12-03T21:32:16.571-07:00</Time>
+    </Item>
+    <Item>
+      <Source>LensFlare\ground.png</Source>
+      <Name>LensFlare\ground</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\x86\Release\Content\LensFlare\ground.xnb</Output>
+      <Time>2010-12-03T21:32:16.573-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Table\RenderStuff_Golden_pedestal_column.FBX</Source>
+      <Name>Models\Table\RenderStuff_Golden_pedestal_column</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\x86\Release\Content\Models\Table\RenderStuff_Golden_pedestal_column.xnb</Output>
+      <Time>2010-11-12T01:01:44.2099341-07:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Models\Table\RenderStuff_Golden_pedestal_colu_0.xml</Key>
+        <Value>2010-12-06T10:50:16.155-07:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\Ball\ball.fbx</Source>
+      <Name>Models\Ball\ball</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\x86\Release\Content\Models\Ball\ball.xnb</Output>
+      <Time>2010-11-16T23:01:02.4972-07:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Models\Ball\ball_0.xml</Key>
+        <Value>2010-12-06T10:50:16.798-07:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>EnvMap\redtorus.fbx</Source>
+      <Name>EnvMap\redtorus</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Parameters>
+        <Data Key="DefaultEffect">EnvironmentMapEffect</Data>
+        <Data Key="ColorKeyColor">255, 0, 0, 255</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\x86\Release\Content\EnvMap\redtorus.xnb</Output>
+      <Time>2010-11-11T20:15:52.2375-07:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\EnvMap\redtorus_0.xml</Key>
+        <Value>2010-12-06T10:50:16.977-07:00</Value>
+      </Dependency>
+      <Request>F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\x86\Release\Content\FBX\B112B7A\redtorus.fbm\redtexture_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>EnvMap\SphereHighPoly.fbx</Source>
+      <Name>EnvMap\SphereHighPoly</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\x86\Release\Content\EnvMap\SphereHighPoly.xnb</Output>
+      <Time>2010-11-11T20:15:52.2755-07:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\EnvMap\SphereHighPoly_0.xml</Key>
+        <Value>2010-12-06T10:50:17.621-07:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\Table\RoundTable.fbx</Source>
+      <Name>Models\Table\RoundTable</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\x86\Release\Content\Models\Table\RoundTable.xnb</Output>
+      <Time>2010-12-03T19:31:09.85-07:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Models\Table\RoundTable_0.xml</Key>
+        <Value>2010-12-06T10:50:17.77-07:00</Value>
+      </Dependency>
+      <Request>F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\x86\Release\Content\Models\Table\wood_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\wall\Block.fbx</Source>
+      <Name>Models\wall\Block</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>MarbleMazeProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\x86\Release\Content\Models\wall\Block.xnb</Output>
+      <Time>2010-11-16T23:53:53.2770768-07:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Models\wall\Block_0.xml</Key>
+        <Value>2010-12-06T10:50:19.004-07:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>EnvMap\red.fbx</Source>
+      <Name>EnvMap\red</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Parameters>
+        <Data Key="DefaultEffect">EnvironmentMapEffect</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\x86\Release\Content\EnvMap\red.xnb</Output>
+      <Time>2010-11-17T18:24:46.1454028-07:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\EnvMap\red_0.xml</Key>
+        <Value>2010-12-06T10:50:19.122-07:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\Ball\EnvBall.fbx</Source>
+      <Name>Models\Ball\EnvBall</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Parameters>
+        <Data Key="DefaultEffect">EnvironmentMapEffect</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\x86\Release\Content\Models\Ball\EnvBall.xnb</Output>
+      <Time>2010-11-17T22:08:08.596-07:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Models\Ball\EnvBall_0.xml</Key>
+        <Value>2010-12-06T10:50:19.349-07:00</Value>
+      </Dependency>
+      <Request>F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\x86\Release\Content\Models\Ball\redtorus.fbm\redtexture_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\Hole\Hole.fbx</Source>
+      <Name>Models\Hole\Hole</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\x86\Release\Content\Models\Hole\Hole.xnb</Output>
+      <Time>2010-11-24T20:28:02.0859083-07:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Models\Hole\Hole_0.xml</Key>
+        <Value>2010-12-06T10:50:19.654-07:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\wall\HalfBlock.fbx</Source>
+      <Name>Models\wall\HalfBlock</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>MarbleMazeProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\x86\Release\Content\Models\wall\HalfBlock.xnb</Output>
+      <Time>2010-11-24T23:33:45.708-07:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Models\wall\HalfBlock_0.xml</Key>
+        <Value>2010-12-06T10:50:19.728-07:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\Maze\Maze.fbx</Source>
+      <Name>Models\Maze\Maze</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>MarbleMazeProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\x86\Release\Content\Models\Maze\Maze.xnb</Output>
+      <Time>2010-12-03T19:59:54.869-07:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Models\Maze\Maze_0.xml</Key>
+        <Value>2010-12-06T10:50:20.023-07:00</Value>
+      </Dependency>
+      <Request>F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\x86\Release\Content\Models\Maze\grass_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\Bomb\Bomb.fbx</Source>
+      <Name>Models\Bomb\Bomb</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\x86\Release\Content\Models\Bomb\Bomb.xnb</Output>
+      <Time>2010-11-27T22:37:58.8152477-07:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Models\Bomb\Bomb_0.xml</Key>
+        <Value>2010-12-06T10:50:24.357-07:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\Bomb\RedButton.fbx</Source>
+      <Name>Models\Bomb\RedButton</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\x86\Release\Content\Models\Bomb\RedButton.xnb</Output>
+      <Time>2010-12-03T02:28:27.104-07:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Models\Bomb\RedButton_0.xml</Key>
+        <Value>2010-12-06T10:50:24.622-07:00</Value>
+      </Dependency>
+      <Request>F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\x86\Release\Content\Models\Bomb\Skull_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\Bomb\BombHole.fbx</Source>
+      <Name>Models\Bomb\BombHole</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\x86\Release\Content\Models\Bomb\BombHole.xnb</Output>
+      <Time>2010-12-02T19:24:55.782-07:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Models\Bomb\BombHole_0.xml</Key>
+        <Value>2010-12-06T10:50:24.913-07:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\Bomb\GreenButton.fbx</Source>
+      <Name>Models\Bomb\GreenButton</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\x86\Release\Content\Models\Bomb\GreenButton.xnb</Output>
+      <Time>2010-12-04T02:43:21.531-07:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Models\Bomb\GreenButton_0.xml</Key>
+        <Value>2010-12-06T10:50:25.004-07:00</Value>
+      </Dependency>
+      <Request>F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\x86\Release\Content\Models\Bomb\Clover_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Config.xml</Source>
+      <Name>Config</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\x86\Release\Content\Config.xnb</Output>
+      <Time>2010-12-06T04:38:51.6015-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Particle\ExplosionSettings.xml</Source>
+      <Name>Particle\ExplosionSettings</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\x86\Release\Content\Particle\ExplosionSettings.xnb</Output>
+      <Time>2010-12-04T21:12:21.2975-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Particle\ExplosionSmokeSettings.xml</Source>
+      <Name>Particle\ExplosionSmokeSettings</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\x86\Release\Content\Particle\ExplosionSmokeSettings.xnb</Output>
+      <Time>2010-12-01T23:22:07.663-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Particle\ProjectileTrailSettings.xml</Source>
+      <Name>Particle\ProjectileTrailSettings</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\x86\Release\Content\Particle\ProjectileTrailSettings.xnb</Output>
+      <Time>2010-11-28T20:26:48.402-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Particle\SmokePlumeSettings.xml</Source>
+      <Name>Particle\SmokePlumeSettings</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\x86\Release\Content\Particle\SmokePlumeSettings.xnb</Output>
+      <Time>2010-12-04T02:11:03.694-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\gamefont.spritefont</Source>
+      <Name>Menu\gamefont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\x86\Release\Content\Menu\gamefont.xnb</Output>
+      <Time>2010-11-29T01:19:41.116-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\menufont.spritefont</Source>
+      <Name>Menu\menufont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\x86\Release\Content\Menu\menufont.xnb</Output>
+      <Time>2010-11-29T01:19:41.12-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound\explosion.wav</Source>
+      <Name>Sound\explosion</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\x86\Release\Content\Sound\explosion.xnb</Output>
+      <Time>2010-12-04T00:30:11.206-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound\time_bomb.wav</Source>
+      <Name>Sound\time_bomb</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\x86\Release\Content\Sound\time_bomb.xnb</Output>
+      <Time>2010-12-05T18:35:14.784-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound\BallHitting.wav</Source>
+      <Name>Sound\BallHitting</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\x86\Release\Content\Sound\BallHitting.xnb</Output>
+      <Time>2010-12-05T22:30:10.239-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound\BallRolling.wav</Source>
+      <Name>Sound\BallRolling</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\x86\Release\Content\Sound\BallRolling.xnb</Output>
+      <Time>2010-12-05T21:29:41.854-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound\Neutralization.wav</Source>
+      <Name>Sound\Neutralization</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\x86\Release\Content\Sound\Neutralization.xnb</Output>
+      <Time>2010-12-06T00:18:14.859-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Table\RenderStuff_Golden_pedestal_column.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Models\Table\RenderStuff_Golden_pedestal_colu_0.xml</Output>
+      <Time>2010-11-12T01:01:44.2099341-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Ball\ball.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Models\Ball\ball_0.xml</Output>
+      <Time>2010-11-16T23:01:02.4972-07:00</Time>
+    </Item>
+    <Item>
+      <Source>EnvMap\redtorus.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\EnvMap\redtorus_0.xml</Output>
+      <Time>2010-11-11T20:15:52.2375-07:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Release\FBX\B112B7A\redtorus.fbm\redtexture.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF0000</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\x86\Release\Content\FBX\B112B7A\redtorus.fbm\redtexture_0.xnb</Output>
+      <Time>2010-12-06T10:50:16.942-07:00</Time>
+    </Item>
+    <Item>
+      <Source>EnvMap\SphereHighPoly.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\EnvMap\SphereHighPoly_0.xml</Output>
+      <Time>2010-11-11T20:15:52.2755-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Table\RoundTable.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Models\Table\RoundTable_0.xml</Output>
+      <Time>2010-12-03T19:31:09.85-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Table\wood.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\x86\Release\Content\Models\Table\wood_0.xnb</Output>
+      <Time>2010-12-03T19:31:15.149-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\wall\Block.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Models\wall\Block_0.xml</Output>
+      <Time>2010-11-16T23:53:53.2770768-07:00</Time>
+    </Item>
+    <Item>
+      <Source>EnvMap\red.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\EnvMap\red_0.xml</Output>
+      <Time>2010-11-17T18:24:46.1454028-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Ball\EnvBall.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Models\Ball\EnvBall_0.xml</Output>
+      <Time>2010-11-17T22:08:08.596-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Ball\redtorus.fbm\redtexture.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\x86\Release\Content\Models\Ball\redtorus.fbm\redtexture_0.xnb</Output>
+      <Time>2010-11-18T20:58:55.086-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Hole\Hole.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Models\Hole\Hole_0.xml</Output>
+      <Time>2010-11-24T20:28:02.0859083-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\wall\HalfBlock.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Models\wall\HalfBlock_0.xml</Output>
+      <Time>2010-11-24T23:33:45.708-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Maze\Maze.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Models\Maze\Maze_0.xml</Output>
+      <Time>2010-12-03T19:59:54.869-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Maze\grass.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\x86\Release\Content\Models\Maze\grass_0.xnb</Output>
+      <Time>2010-12-03T20:00:48.339-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Bomb\Bomb.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Models\Bomb\Bomb_0.xml</Output>
+      <Time>2010-11-27T22:37:58.8152477-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Bomb\RedButton.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Models\Bomb\RedButton_0.xml</Output>
+      <Time>2010-12-03T02:28:27.104-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Bomb\Skull.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\x86\Release\Content\Models\Bomb\Skull_0.xnb</Output>
+      <Time>2010-12-03T02:34:13.808-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Bomb\BombHole.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Models\Bomb\BombHole_0.xml</Output>
+      <Time>2010-12-02T19:24:55.782-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Bomb\GreenButton.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Models\Bomb\GreenButton_0.xml</Output>
+      <Time>2010-12-04T02:43:21.531-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Bomb\Clover.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\x86\Release\Content\Models\Bomb\Clover_0.xnb</Output>
+      <Time>2010-12-04T02:39:36.632-07:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Release</BuildConfiguration>
+      <CompressContent>true</CompressContent>
+      <RootDirectory>F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\XNALabyrinth\XNALabyrinthContent\</RootDirectory>
+      <LoggerRootDirectory>F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\XNALabyrinth\XNALabyrinth\</LoggerRootDirectory>
+      <IntermediateDirectory>F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\XNALabyrinth\XNALabyrinthContent\obj\x86\Release\</IntermediateDirectory>
+      <OutputDirectory>F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\x86\Release\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\SharedContent\bin\x86\Release\SharedContent.dll</Key>
+        <Value>2010-12-06T10:49:49.479-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-06:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-06:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-06:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-06:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-06:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-06:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\MarbleMazeProcessor\bin\x86\Debug\MarbleMazeProcessor.dll</Key>
+        <Value>2010-12-06T10:49:49.024-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2010-11-02T01:25:00.1246-06:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type="SharedConfig.Configuration">
+    <holeModelPath>Models\\Hole\\Hole</holeModelPath>
+    <ballPath>Models\\Ball\\envBall</ballPath>
+    <baseTablePath>Models\\Table\\RenderStuff_Golden_pedestal_column</baseTablePath>
+    <tablePath>Models\\Table\\RoundTable</tablePath>
+    <mazePath>Models\\Maze\\Maze</mazePath>
+    <bombPath>Models\\Bomb\\Bomb</bombPath>
+    <glowPath>LensFlare\\glow</glowPath>
+    <flarePath>LensFlare\\flare</flarePath>
+    
+    <skySphereFX>EnvMap\\SkySphere</skySphereFX>
+    <envTexCube>EnvMap\\uffizi_cross</envTexCube>
+    <envSkyModel>EnvMap\\SphereHighPoly</envSkyModel>
+
+    <fontPath>Menu\\menufont</fontPath>
+    <blankPath>Menu\\blank</blankPath>
+    <backgroundPath>Menu\\background</backgroundPath>
+    <gradient>Menu\\gradient</gradient>
+
+    <shakeTimer>0</shakeTimer>
+    <shakeDuration>2</shakeDuration>
+    <shakeMagnitude>5</shakeMagnitude>
+    <shaking>0</shaking>
+
+    <isComponentAdded>0</isComponentAdded>
+
+    <gAngleLimit>0.157079637</gAngleLimit>
+    <gFrameTime>0.01</gFrameTime>
+    
+    <numberOfHoles>5</numberOfHoles>
+    <holesXposition>10.5 21 14 35 28.5</holesXposition>
+    <holesZposition>5 11.5 40 15.5 33</holesZposition>
+    
+    <ballRadius>1.5</ballRadius>
+    <numberOfWalls>50</numberOfWalls>
+    <wallWidth>3</wallWidth>
+    <wallLenght>9</wallLenght>
+    <mazeMap>
+      1 1 1 1 1 1 1 1 1 1 0
+      1 0 0 0 0 0 0 0 0 0 1
+      0 0 0 0 0 0 0 1 0 0 0
+      1 1 0 0 0 0 0 0 0 0 1
+      0 0 0 1 0 1 0 0 0 0 0
+      1 0 0 0 0 0 0 0 0 0 1
+      0 0 0 0 0 0 0 1 0 0 0
+      1 0 0 0 0 0 0 0 0 0 1
+      0 0 0 0 0 0 0 0 0 0 0
+      1 0 1 0 0 0 0 0 0 0 1
+      0 0 0 0 0 0 0 1 0 0 0
+      1 0 0 1 0 0 0 0 0 0 1
+      0 0 0 0 0 0 0 0 0 0 0
+      1 0 0 0 0 0 0 0 0 0 1
+      0 0 1 0 0 1 0 0 0 0 0
+      1 0 0 0 0 0 0 0 0 0 1
+      0 0 0 0 0 0 0 0 0 0 0
+      1 0 0 0 0 0 0 0 0 0 1
+      0 0 0 0 0 0 0 0 0 0 0
+      1 0 0 0 0 0 0 0 0 0 1
+      1 1 1 1 1 1 1 1 1 1 0
+      0 0 0 0 0 0 0 0 0 0 0
+    </mazeMap>
+   
+  </Asset>
+</XnaContent>

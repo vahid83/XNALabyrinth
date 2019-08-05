@@ -1,0 +1,6 @@
+D:\PROJECTS\_XNALabyrinth\SharedContent\bin\Xbox 360\Debug\SharedContent.dll
+D:\PROJECTS\_XNALabyrinth\SharedContent\bin\Xbox 360\Debug\SharedContent.pdb
+D:\PROJECTS\_XNALabyrinth\SharedContent\obj\Xbox 360\Debug\ResolveAssemblyReference.cache
+D:\PROJECTS\_XNALabyrinth\SharedContent\obj\Xbox 360\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+D:\PROJECTS\_XNALabyrinth\SharedContent\obj\Xbox 360\Debug\SharedContent.dll
+D:\PROJECTS\_XNALabyrinth\SharedContent\obj\Xbox 360\Debug\SharedContent.pdb

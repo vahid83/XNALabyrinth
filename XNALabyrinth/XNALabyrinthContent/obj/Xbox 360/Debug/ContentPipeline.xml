@@ -1,0 +1,809 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline" xmlns:Framework="Microsoft.Xna.Framework" xmlns:Processors="Microsoft.Xna.Framework.Content.Pipeline.Processors">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Effects\efx.fx</Source>
+      <Name>Effects\efx</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\Xbox 360\Debug\Content\Effects\efx.xnb</Output>
+      <Time>2010-11-08T16:10:27.8503187-07:00</Time>
+    </Item>
+    <Item>
+      <Source>EnvMap\SkySphere.fx</Source>
+      <Name>EnvMap\SkySphere</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\Xbox 360\Debug\Content\EnvMap\SkySphere.xnb</Output>
+      <Time>2010-11-18T21:07:45.824-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Particle\ParticleEffect.fx</Source>
+      <Name>Particle\ParticleEffect</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\Xbox 360\Debug\Content\Particle\ParticleEffect.xnb</Output>
+      <Time>2010-11-28T19:23:23.88-07:00</Time>
+    </Item>
+    <Item>
+      <Source>EnvMap\rnl_cross.dds</Source>
+      <Name>EnvMap\rnl_cross</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\Xbox 360\Debug\Content\EnvMap\rnl_cross.xnb</Output>
+      <Time>2010-11-11T23:09:42.8544946-07:00</Time>
+    </Item>
+    <Item>
+      <Source>EnvMap\uffizi_cross.dds</Source>
+      <Name>EnvMap\uffizi_cross</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\Xbox 360\Debug\Content\EnvMap\uffizi_cross.xnb</Output>
+      <Time>2010-11-11T20:15:52.2255-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Ball\redtexture.png</Source>
+      <Name>Models\Ball\redtexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\Xbox 360\Debug\Content\Models\Ball\redtexture.xnb</Output>
+      <Time>2010-11-11T20:15:52.2315-07:00</Time>
+    </Item>
+    <Item>
+      <Source>EnvMap\CubeMap.dds</Source>
+      <Name>EnvMap\CubeMap</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\Xbox 360\Debug\Content\EnvMap\CubeMap.xnb</Output>
+      <Time>2010-11-12T13:48:33.15-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Particle\explosion.png</Source>
+      <Name>Particle\explosion</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\Xbox 360\Debug\Content\Particle\explosion.xnb</Output>
+      <Time>2010-11-28T19:23:51.342-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Particle\smoke.png</Source>
+      <Name>Particle\smoke</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\Xbox 360\Debug\Content\Particle\smoke.xnb</Output>
+      <Time>2010-11-28T19:23:51.344-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\background.png</Source>
+      <Name>Menu\background</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\Xbox 360\Debug\Content\Menu\background.xnb</Output>
+      <Time>2010-11-29T01:19:41.113-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\blank.png</Source>
+      <Name>Menu\blank</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\Xbox 360\Debug\Content\Menu\blank.xnb</Output>
+      <Time>2010-11-29T01:19:41.115-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\gradient.png</Source>
+      <Name>Menu\gradient</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\Xbox 360\Debug\Content\Menu\gradient.xnb</Output>
+      <Time>2010-11-29T01:19:41.118-07:00</Time>
+    </Item>
+    <Item>
+      <Source>LensFlare\flare1.png</Source>
+      <Name>LensFlare\flare1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\Xbox 360\Debug\Content\LensFlare\flare1.xnb</Output>
+      <Time>2010-12-03T21:32:16.546-07:00</Time>
+    </Item>
+    <Item>
+      <Source>LensFlare\flare2.png</Source>
+      <Name>LensFlare\flare2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\Xbox 360\Debug\Content\LensFlare\flare2.xnb</Output>
+      <Time>2010-12-03T21:32:16.568-07:00</Time>
+    </Item>
+    <Item>
+      <Source>LensFlare\flare3.png</Source>
+      <Name>LensFlare\flare3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\Xbox 360\Debug\Content\LensFlare\flare3.xnb</Output>
+      <Time>2010-12-03T21:32:16.569-07:00</Time>
+    </Item>
+    <Item>
+      <Source>LensFlare\glow.png</Source>
+      <Name>LensFlare\glow</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\Xbox 360\Debug\Content\LensFlare\glow.xnb</Output>
+      <Time>2010-12-03T21:32:16.571-07:00</Time>
+    </Item>
+    <Item>
+      <Source>LensFlare\ground.png</Source>
+      <Name>LensFlare\ground</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\Xbox 360\Debug\Content\LensFlare\ground.xnb</Output>
+      <Time>2010-12-03T21:32:16.573-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Checkpoint\circle.png</Source>
+      <Name>Models\Checkpoint\circle</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\Xbox 360\Debug\Content\Models\Checkpoint\circle.xnb</Output>
+      <Time>2010-12-06T21:13:31.3998-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Ball\ball.fbx</Source>
+      <Name>Models\Ball\ball</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\Xbox 360\Debug\Content\Models\Ball\ball.xnb</Output>
+      <Time>2010-11-16T23:01:02.4972-07:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Debug\Models\Ball\ball_0.xml</Key>
+        <Value>2010-12-07T14:46:32.2369911-07:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>EnvMap\redtorus.fbx</Source>
+      <Name>EnvMap\redtorus</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Parameters>
+        <Data Key="DefaultEffect">EnvironmentMapEffect</Data>
+        <Data Key="ColorKeyColor">255, 0, 0, 255</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\Xbox 360\Debug\Content\EnvMap\redtorus.xnb</Output>
+      <Time>2010-11-11T20:15:52.2375-07:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Debug\EnvMap\redtorus_0.xml</Key>
+        <Value>2010-12-07T14:46:32.3339966-07:00</Value>
+      </Dependency>
+      <Request>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\Xbox 360\Debug\Content\FBX\F36E2034\redtorus.fbm\redtexture_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>EnvMap\SphereHighPoly.fbx</Source>
+      <Name>EnvMap\SphereHighPoly</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\Xbox 360\Debug\Content\EnvMap\SphereHighPoly.xnb</Output>
+      <Time>2010-11-11T20:15:52.2755-07:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Debug\EnvMap\SphereHighPoly_0.xml</Key>
+        <Value>2010-12-07T14:46:32.6330137-07:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\Table\RoundTable.fbx</Source>
+      <Name>Models\Table\RoundTable</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\Xbox 360\Debug\Content\Models\Table\RoundTable.xnb</Output>
+      <Time>2010-12-03T19:31:09.85-07:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Debug\Models\Table\RoundTable_0.xml</Key>
+        <Value>2010-12-07T14:46:32.7590209-07:00</Value>
+      </Dependency>
+      <Request>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\Xbox 360\Debug\Content\Models\Table\wood_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\wall\Block.fbx</Source>
+      <Name>Models\wall\Block</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>MarbleMazeProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\Xbox 360\Debug\Content\Models\wall\Block.xnb</Output>
+      <Time>2010-11-16T23:53:53.2770768-07:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Debug\Models\wall\Block_0.xml</Key>
+        <Value>2010-12-07T14:46:33.5910685-07:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>EnvMap\red.fbx</Source>
+      <Name>EnvMap\red</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Parameters>
+        <Data Key="DefaultEffect">EnvironmentMapEffect</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\Xbox 360\Debug\Content\EnvMap\red.xnb</Output>
+      <Time>2010-11-17T18:24:46.1454028-07:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Debug\EnvMap\red_0.xml</Key>
+        <Value>2010-12-07T14:46:33.669073-07:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\Ball\EnvBall.fbx</Source>
+      <Name>Models\Ball\EnvBall</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Parameters>
+        <Data Key="DefaultEffect">EnvironmentMapEffect</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\Xbox 360\Debug\Content\Models\Ball\EnvBall.xnb</Output>
+      <Time>2010-11-17T22:08:08.596-07:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Debug\Models\Ball\EnvBall_0.xml</Key>
+        <Value>2010-12-07T14:46:33.8180815-07:00</Value>
+      </Dependency>
+      <Request>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\Xbox 360\Debug\Content\Models\Ball\redtorus.fbm\redtexture_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\Hole\Hole.fbx</Source>
+      <Name>Models\Hole\Hole</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\Xbox 360\Debug\Content\Models\Hole\Hole.xnb</Output>
+      <Time>2010-11-24T20:28:02.0859083-07:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Debug\Models\Hole\Hole_0.xml</Key>
+        <Value>2010-12-07T14:46:33.9400885-07:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\wall\HalfBlock.fbx</Source>
+      <Name>Models\wall\HalfBlock</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>MarbleMazeProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\Xbox 360\Debug\Content\Models\wall\HalfBlock.xnb</Output>
+      <Time>2010-11-24T23:33:45.708-07:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Debug\Models\wall\HalfBlock_0.xml</Key>
+        <Value>2010-12-07T14:46:33.9890913-07:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\Maze\Maze.fbx</Source>
+      <Name>Models\Maze\Maze</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>MarbleMazeProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\Xbox 360\Debug\Content\Models\Maze\Maze.xnb</Output>
+      <Time>2010-12-03T19:59:54.869-07:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Debug\Models\Maze\Maze_0.xml</Key>
+        <Value>2010-12-07T14:46:34.1531006-07:00</Value>
+      </Dependency>
+      <Request>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\Xbox 360\Debug\Content\Models\Maze\grass_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\Bomb\Bomb.fbx</Source>
+      <Name>Models\Bomb\Bomb</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\Xbox 360\Debug\Content\Models\Bomb\Bomb.xnb</Output>
+      <Time>2010-11-27T22:37:58.8152477-07:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Debug\Models\Bomb\Bomb_0.xml</Key>
+        <Value>2010-12-07T14:46:37.376285-07:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\Bomb\RedButton.fbx</Source>
+      <Name>Models\Bomb\RedButton</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\Xbox 360\Debug\Content\Models\Bomb\RedButton.xnb</Output>
+      <Time>2010-12-03T02:28:27.104-07:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Debug\Models\Bomb\RedButton_0.xml</Key>
+        <Value>2010-12-07T14:46:37.5522951-07:00</Value>
+      </Dependency>
+      <Request>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\Xbox 360\Debug\Content\Models\Bomb\Skull_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\Bomb\BombHole.fbx</Source>
+      <Name>Models\Bomb\BombHole</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\Xbox 360\Debug\Content\Models\Bomb\BombHole.xnb</Output>
+      <Time>2010-12-02T19:24:55.782-07:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Debug\Models\Bomb\BombHole_0.xml</Key>
+        <Value>2010-12-07T14:46:37.6473005-07:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\Bomb\GreenButton.fbx</Source>
+      <Name>Models\Bomb\GreenButton</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\Xbox 360\Debug\Content\Models\Bomb\GreenButton.xnb</Output>
+      <Time>2010-12-04T02:43:21.531-07:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Debug\Models\Bomb\GreenButton_0.xml</Key>
+        <Value>2010-12-07T14:46:37.7053038-07:00</Value>
+      </Dependency>
+      <Request>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\Xbox 360\Debug\Content\Models\Bomb\Clover_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\Checkpoint\Checkpoint.fbx</Source>
+      <Name>Models\Checkpoint\Checkpoint</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\Xbox 360\Debug\Content\Models\Checkpoint\Checkpoint.xnb</Output>
+      <Time>2010-12-06T21:08:45.5488-07:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Debug\Models\Checkpoint\Checkpoint_0.xml</Key>
+        <Value>2010-12-07T14:46:37.970319-07:00</Value>
+      </Dependency>
+      <Request>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\Xbox 360\Debug\Content\Models\Checkpoint\circle_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Config.xml</Source>
+      <Name>Config</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\Xbox 360\Debug\Content\Config.xnb</Output>
+      <Time>2010-12-07T15:00:04.467448-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Particle\ExplosionSettings.xml</Source>
+      <Name>Particle\ExplosionSettings</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\Xbox 360\Debug\Content\Particle\ExplosionSettings.xnb</Output>
+      <Time>2010-12-04T21:12:21.2975-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Particle\ExplosionSmokeSettings.xml</Source>
+      <Name>Particle\ExplosionSmokeSettings</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\Xbox 360\Debug\Content\Particle\ExplosionSmokeSettings.xnb</Output>
+      <Time>2010-12-01T23:22:07.663-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Particle\ProjectileTrailSettings.xml</Source>
+      <Name>Particle\ProjectileTrailSettings</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\Xbox 360\Debug\Content\Particle\ProjectileTrailSettings.xnb</Output>
+      <Time>2010-11-28T20:26:48.402-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Particle\SmokePlumeSettings.xml</Source>
+      <Name>Particle\SmokePlumeSettings</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\Xbox 360\Debug\Content\Particle\SmokePlumeSettings.xnb</Output>
+      <Time>2010-12-04T02:11:03.694-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\gamefont.spritefont</Source>
+      <Name>Menu\gamefont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\Xbox 360\Debug\Content\Menu\gamefont.xnb</Output>
+      <Time>2010-11-29T01:19:41.116-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\menufont.spritefont</Source>
+      <Name>Menu\menufont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\Xbox 360\Debug\Content\Menu\menufont.xnb</Output>
+      <Time>2010-11-29T01:19:41.12-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound\explosion.wav</Source>
+      <Name>Sound\explosion</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\Xbox 360\Debug\Content\Sound\explosion.xnb</Output>
+      <Time>2010-12-04T00:30:11.206-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound\time_bomb.wav</Source>
+      <Name>Sound\time_bomb</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\Xbox 360\Debug\Content\Sound\time_bomb.xnb</Output>
+      <Time>2010-12-05T18:35:14.784-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound\BallHitting.wav</Source>
+      <Name>Sound\BallHitting</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\Xbox 360\Debug\Content\Sound\BallHitting.xnb</Output>
+      <Time>2010-12-05T22:30:10.239-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound\BallRolling.wav</Source>
+      <Name>Sound\BallRolling</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\Xbox 360\Debug\Content\Sound\BallRolling.xnb</Output>
+      <Time>2010-12-05T21:29:41.854-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound\Neutralization.wav</Source>
+      <Name>Sound\Neutralization</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\Xbox 360\Debug\Content\Sound\Neutralization.xnb</Output>
+      <Time>2010-12-06T00:18:14.859-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound\Checkpoint.wav</Source>
+      <Name>Sound\Checkpoint</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\Xbox 360\Debug\Content\Sound\Checkpoint.xnb</Output>
+      <Time>2010-11-15T14:45:56-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Ball\ball.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Debug\Models\Ball\ball_0.xml</Output>
+      <Time>2010-11-16T23:01:02.4972-07:00</Time>
+    </Item>
+    <Item>
+      <Source>EnvMap\redtorus.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Debug\EnvMap\redtorus_0.xml</Output>
+      <Time>2010-11-11T20:15:52.2375-07:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\Xbox 360\Debug\FBX\F36E2034\redtorus.fbm\redtexture.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF0000</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\Xbox 360\Debug\Content\FBX\F36E2034\redtorus.fbm\redtexture_0.xnb</Output>
+      <Time>2010-12-07T14:46:32.3089952-07:00</Time>
+    </Item>
+    <Item>
+      <Source>EnvMap\SphereHighPoly.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Debug\EnvMap\SphereHighPoly_0.xml</Output>
+      <Time>2010-11-11T20:15:52.2755-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Table\RoundTable.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Debug\Models\Table\RoundTable_0.xml</Output>
+      <Time>2010-12-03T19:31:09.85-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Table\wood.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\Xbox 360\Debug\Content\Models\Table\wood_0.xnb</Output>
+      <Time>2010-12-03T19:31:15.149-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\wall\Block.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Debug\Models\wall\Block_0.xml</Output>
+      <Time>2010-11-16T23:53:53.2770768-07:00</Time>
+    </Item>
+    <Item>
+      <Source>EnvMap\red.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Debug\EnvMap\red_0.xml</Output>
+      <Time>2010-11-17T18:24:46.1454028-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Ball\EnvBall.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Debug\Models\Ball\EnvBall_0.xml</Output>
+      <Time>2010-11-17T22:08:08.596-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Ball\redtorus.fbm\redtexture.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\Xbox 360\Debug\Content\Models\Ball\redtorus.fbm\redtexture_0.xnb</Output>
+      <Time>2010-11-18T20:58:55.086-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Hole\Hole.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Debug\Models\Hole\Hole_0.xml</Output>
+      <Time>2010-11-24T20:28:02.0859083-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\wall\HalfBlock.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Debug\Models\wall\HalfBlock_0.xml</Output>
+      <Time>2010-11-24T23:33:45.708-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Maze\Maze.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Debug\Models\Maze\Maze_0.xml</Output>
+      <Time>2010-12-03T19:59:54.869-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Maze\grass.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\Xbox 360\Debug\Content\Models\Maze\grass_0.xnb</Output>
+      <Time>2010-12-03T20:00:48.339-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Bomb\Bomb.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Debug\Models\Bomb\Bomb_0.xml</Output>
+      <Time>2010-11-27T22:37:58.8152477-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Bomb\RedButton.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Debug\Models\Bomb\RedButton_0.xml</Output>
+      <Time>2010-12-03T02:28:27.104-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Bomb\Skull.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\Xbox 360\Debug\Content\Models\Bomb\Skull_0.xnb</Output>
+      <Time>2010-12-03T02:34:13.808-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Bomb\BombHole.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Debug\Models\Bomb\BombHole_0.xml</Output>
+      <Time>2010-12-02T19:24:55.782-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Bomb\GreenButton.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Debug\Models\Bomb\GreenButton_0.xml</Output>
+      <Time>2010-12-04T02:43:21.531-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Bomb\Clover.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\Xbox 360\Debug\Content\Models\Bomb\Clover_0.xnb</Output>
+      <Time>2010-12-04T02:39:36.632-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Checkpoint\Checkpoint.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Debug\Models\Checkpoint\Checkpoint_0.xml</Output>
+      <Time>2010-12-06T21:08:45.5488-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Checkpoint\circle.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\Xbox 360\Debug\Content\Models\Checkpoint\circle_0.xnb</Output>
+      <Time>2010-12-06T21:13:31.3998-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Table\RenderStuff_ceramic.jpg</Source>
+      <Name>Models\Table\RenderStuff_ceramic</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\Xbox 360\Debug\Content\Models\Table\RenderStuff_ceramic.xnb</Output>
+      <Time>2010-11-08T17:40:25.8530668-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Table\RenderStuff_reproduction.jpg</Source>
+      <Name>Models\Table\RenderStuff_reproduction</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\Xbox 360\Debug\Content\Models\Table\RenderStuff_reproduction.xnb</Output>
+      <Time>2010-11-08T17:40:25.8590671-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Table\RenderStuff_scratch.jpg</Source>
+      <Name>Models\Table\RenderStuff_scratch</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\Xbox 360\Debug\Content\Models\Table\RenderStuff_scratch.xnb</Output>
+      <Time>2010-11-08T17:40:25.8900689-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Table\RenderStuff.FBX</Source>
+      <Name>Models\Table\RenderStuff</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\Xbox 360\Debug\Content\Models\Table\RenderStuff.xnb</Output>
+      <Time>2010-12-07T14:50:56.0350794-07:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Debug\Models\Table\RenderStuff_0.xml</Key>
+        <Value>2010-12-07T14:51:15.7102048-07:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\Table\RenderStuff.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Debug\Models\Table\RenderStuff_0.xml</Output>
+      <Time>2010-12-07T14:50:56.0350794-07:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Xbox360</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>true</CompressContent>
+      <RootDirectory>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinthContent\</RootDirectory>
+      <LoggerRootDirectory>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinth\</LoggerRootDirectory>
+      <IntermediateDirectory>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinthContent\obj\Xbox 360\Debug\</IntermediateDirectory>
+      <OutputDirectory>D:\PROJECTS\_XNALabyrinth\XNALabyrinth\XNALabyrinth\bin\Xbox 360\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>D:\PROJECTS\_XNALabyrinth\SharedContent\bin\x86\Debug\SharedContent.dll</Key>
+        <Value>2010-12-07T00:22:32.8658-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-06:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-06:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-06:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-06:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-06:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-06:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>D:\PROJECTS\_XNALabyrinth\MarbleMazeProcessor\bin\x86\Debug\MarbleMazeProcessor.dll</Key>
+        <Value>2010-12-07T00:22:33.1578-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2010-10-25T15:13:08.4593361-06:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

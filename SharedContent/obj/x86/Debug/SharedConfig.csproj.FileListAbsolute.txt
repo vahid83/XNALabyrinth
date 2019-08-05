@@ -1,0 +1,18 @@
+D:\Projects\XNALabyrinth\SharedContent\bin\x86\Debug\SharedContent.dll
+D:\Projects\XNALabyrinth\SharedContent\bin\x86\Debug\SharedContent.pdb
+D:\Projects\XNALabyrinth\SharedContent\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Projects\XNALabyrinth\SharedContent\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+D:\Projects\XNALabyrinth\SharedContent\obj\x86\Debug\SharedContent.dll
+D:\Projects\XNALabyrinth\SharedContent\obj\x86\Debug\SharedContent.pdb
+F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\SharedContent\bin\x86\Debug\SharedContent.dll
+F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\SharedContent\bin\x86\Debug\SharedContent.pdb
+F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\SharedContent\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\SharedContent\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\SharedContent\obj\x86\Debug\SharedContent.dll
+F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\SharedContent\obj\x86\Debug\SharedContent.pdb
+D:\PROJECTS\_XNALabyrinth\SharedContent\bin\x86\Debug\SharedContent.dll
+D:\PROJECTS\_XNALabyrinth\SharedContent\bin\x86\Debug\SharedContent.pdb
+D:\PROJECTS\_XNALabyrinth\SharedContent\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\PROJECTS\_XNALabyrinth\SharedContent\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+D:\PROJECTS\_XNALabyrinth\SharedContent\obj\x86\Debug\SharedContent.dll
+D:\PROJECTS\_XNALabyrinth\SharedContent\obj\x86\Debug\SharedContent.pdb

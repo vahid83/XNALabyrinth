@@ -1,0 +1,12 @@
+D:\Projects\XNALabyrinth\SharedContent\bin\x86\Release\SharedContent.dll
+D:\Projects\XNALabyrinth\SharedContent\bin\x86\Release\SharedContent.pdb
+D:\Projects\XNALabyrinth\SharedContent\obj\x86\Release\ResolveAssemblyReference.cache
+D:\Projects\XNALabyrinth\SharedContent\obj\x86\Release\Microsoft.Xna.Framework.RuntimeProfile.txt
+D:\Projects\XNALabyrinth\SharedContent\obj\x86\Release\SharedContent.dll
+D:\Projects\XNALabyrinth\SharedContent\obj\x86\Release\SharedContent.pdb
+F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\SharedContent\bin\x86\Release\SharedContent.dll
+F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\SharedContent\bin\x86\Release\SharedContent.pdb
+F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\SharedContent\obj\x86\Release\ResolveAssemblyReference.cache
+F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\SharedContent\obj\x86\Release\Microsoft.Xna.Framework.RuntimeProfile.txt
+F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\SharedContent\obj\x86\Release\SharedContent.dll
+F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\SharedContent\obj\x86\Release\SharedContent.pdb

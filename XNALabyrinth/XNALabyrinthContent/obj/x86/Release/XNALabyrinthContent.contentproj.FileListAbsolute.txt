@@ -1,0 +1,2 @@
+D:\Projects\XNALabyrinth\XNALabyrinth\XNALabyrinthContent\obj\x86\Release\ResolveAssemblyReference.cache
+F:\Nima works\classes\Intro to CG\Project\XNALabyrinth\XNALabyrinth\XNALabyrinthContent\obj\x86\Release\ResolveAssemblyReference.cache
